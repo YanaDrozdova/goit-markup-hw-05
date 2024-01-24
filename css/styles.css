@@ -513,7 +513,6 @@ img {
   gap: 16px;
   justify-content: center;
   align-items: center;
-  margin-right: 80px;
 }
 
 .footer-soc-item {
@@ -594,6 +593,11 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+}
+
+.footer-subscribe-btn:hover,
+.footer-subscribe-btn:focus {
+  background-color: #404bbf;
 }
 
 .subscribe-icon {
@@ -832,7 +836,6 @@ img {
 }
 
 .modal-send-btn:hover,
-
 .modal-send-btn:focus {
   background-color: #404bbf;
 }
